@@ -35,7 +35,7 @@ int main(void) {
     if (!(fabs(pi0 - M_PI) < 0.4)) {
       printf("Estimate with even %d iterations is %f which is not accurate enough.\n", i, pi0);
       abort();
-    }
+	 }
   }
 }
 float mc_pi(int count)
